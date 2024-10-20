@@ -1,0 +1,95 @@
+# Directorios generados por el compilador y archivos binarios
+__pycache__/
+*.py[cod]
+*.so
+*.dll
+*.dylib
+*.pyd
+
+# Archivos temporales de editor y del sistema operativo
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Archivos generados por PyInstaller o procesos de compilación
+build/
+dist/
+*.spec
+
+# Archivos y carpetas para entornos virtuales de Python
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+.virtualenv/
+*.egg-info/
+pip-wheel-metadata/
+
+# Archivos de logs
+*.log
+
+# Configuraciones de PyCharm
+.idea/
+
+# Configuraciones de Visual Studio Code
+.vscode/
+
+# Archivos de depuración y otros archivos innecesarios
+*.bak
+*.tmp
+*.old
+
+# Dependencias locales o específicas del sistema
+lib/
+lib64/
+bin/
+include/
+share/
+
+# Archivos relacionados con empaquetado en Windows/Linux
+*.exe
+*.msi
+*.deb
+*.rpm
+
+# Archivos del entorno de desarrollo
+.env
+.env.local
+.env.*
+.idea/
+.project/
+.pydevproject
+
+# Archivos de configuración o almacenamiento temporal
+*.sqlite3
+*.db
+*.pkl
+
+# Archivos relacionados con CI/CD
+.tox/
+.coverage
+.cache
+.pytest_cache/
+
+# Archivos comprimidos
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Archivos de documentación generada automáticamente
+docs/_build/
+
+# Archivos de Jupyter Notebook con metadatos innecesarios
+.ipynb_checkpoints/
+
+# Archivos relacionados con Qt Designer (pueden ser innecesarios si los .py generados ya están presentes)
+*.ui
+*.qrc
+
+# Archivos generados por PyInstaller
+*.manifest
+*.spec
